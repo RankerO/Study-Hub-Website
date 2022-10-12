@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Section</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mr+De+Haviland&family=Qwigley&family=Sarpanch&display=swap"
+        rel="stylesheet">
+    <style>
+        @media (max-width: 799px) {
+            body {
+                background-color: #45637d3d;
+            }
+
+            .mainh {
+                background-color: rgb(0 0 0 / 67%);
+                margin: -36px -8px;
+                height: 103px;
+                width: 798px;
+            }
+
+            .head1 {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 1);
+                color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: solid;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .lect {
+                color: white;
+                background-color: #607d8b;
+                font-size: 23px;
+                width: 782px;
+            }
+
+            .head1:hover {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .foot {
+                color: #dadadad9;
+                background-color: rgba(0, 0, 0, 0.86);
+                width: 798px;
+                margin-top: 11499px;
+                height: 104px;
+                margin-left: -8px;
+                text-align: center;
+
+            }
+
+            .videos {
+                display: flex;
+                flex-direction: column;
+                height: 150px;
+                margin-left: 80px;
+            }
+
+            .picsen {
+                background-color: #2196f31f;
+                display: flex;
+                flex-direction: column;
+                padding: 40px 10px;
+                margin: 40px -17px;
+            }
+
+            .sen {
+                width: 440px;
+                padding: 22px 100px;
+                background-color: #78909c;
+                font-size: 19px;
+            }
+
+            .vid {
+                margin-left: 54px;
+                height: 222px;
+                width: 524px;
+            }
+
+            a {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 0.89);
+                color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+
+            a:hover {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+        }
+
+
+        @media (min-width: 800px) {
+            body {
+                background-color: #45637d3d;
+            }
+
+            .mainh {
+                background-color: rgb(0 0 0 / 67%);
+                margin: -36px -8px;
+                height: 103px;
+                width: 1519px;
+            }
+
+            .head1 {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 1);
+                color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: solid;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .lect {
+                color: white;
+                background-color: #607d8b;
+                font-size: 25px;
+                width: 1500px;
+            }
+
+            .head1:hover {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .foot {
+                color: #dadadad9;
+                background-color: rgba(0, 0, 0, 0.86);
+                width: 1519px;
+                margin-top: 9432px;
+                height: 125px;
+                margin-left: -8px;
+                text-align: center;
+            }
+
+            .videos {
+                display: flex;
+                flex-direction: column;
+                height: 150px;
+                margin-left: 80px;
+            }
+
+            .picsen {
+                background-color: #2196f31f;
+                display: inline-flex;
+                padding: 40px 10px;
+                margin: 40px 16px;
+            }
+
+            .sen {
+                width: 600px;
+                padding: 22px 100px;
+                background-color: #78909c;
+                font-size: 22px;
+            }
+
+            .vid {
+                height: 324px;
+                width: 525px;
+            }
+
+            a {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 0.89);
+                color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+
+            a:hover {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+        }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="mainh"></div>
+        <h2 class="head1">StudyHUB</h2>
+        <p class="lect">Biology Lectures</p>
+    </header>
+
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Iframe -->
+        <section>
+            <div class="row d-flex justify-content-center">
+                <div class="videos" class="col-lg-6" style="display: inline-flex;">
+
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4WMnwMS6SLY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Reproduction!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0X4W9YspDQs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Genetics!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2_9EfY7Nbvo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Inheritance and Variation!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uqtpBRLvOYA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Principal of Inheritance and Variation!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/XzN1sw1F28c"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Typhoid!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4sXo_UfA_10"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Pneumonia!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KGbH1d-joBY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Sign. & Symptoms Causes, Risk Factor, Pathophysiology!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5uuZaMupQYk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Prevention and Management of Pneumonia!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pDTwXYkLcUk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Menstural Cycle!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/q7Hsloumfvc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Fertilization!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/OEAMKUHvLiE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Fertilization and Implantation!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0y637i2Uq_g"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Fertilization and Embreyogenesis!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vJFb-lm2WF4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Genetic Code!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0Rh1l22ZCfc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; DNA Fingerprinting!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/E46G9mc3nuI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Lac Operon!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bNzuxCK8ybU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Genetic Code!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JYFOVYlQL_0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Transcription and Translation!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C1lePnS6i08"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Transcription Part- 1!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TuTey14xmfk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Structure of DNA!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/A0mFCUE9en4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <p class="sen">Biology; Mendelian Genetics!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Iframe -->
+    </div>
+    <!-- Grid container -->
+
+    <footer>
+        <!-- Copyright -->
+        <div class="foot">
+            © 2021 Copyright: <a>StudyHUB</a>
+            <p>Designed by: TeamHack101</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>

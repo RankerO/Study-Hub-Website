@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Section</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mr+De+Haviland&family=Qwigley&family=Sarpanch&display=swap"
+        rel="stylesheet">
+    <style>
+        @media (max-width: 799px) {
+            body {
+                background-color: #45637d3d;
+            }
+
+            .mainh {
+                background-color: rgb(0 0 0 / 67%);
+                margin: -36px -8px;
+                height: 103px;
+                width: 798px;
+            }
+
+            .head1 {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 1);
+                color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: solid;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .lect {
+                color: white;
+                background-color: #607d8b;
+                font-size: 23px;
+                width: 782px;
+            }
+
+            .head1:hover {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .foot {
+                color: #dadadad9;
+                background-color: rgba(0, 0, 0, 0.86);
+                width: 798px;
+                margin-top: 11499px;
+                height: 104px;
+                margin-left: -8px;
+                text-align: center;
+
+            }
+
+            .videos {
+                display: flex;
+                flex-direction: column;
+                height: 150px;
+                margin-left: 80px;
+            }
+
+            .picsen {
+                background-color: #2196f31f;
+                display: flex;
+                flex-direction: column;
+                padding: 40px 10px;
+                margin: 40px -17px;
+            }
+
+            .sen {
+                width: 440px;
+                padding: 22px 100px;
+                background-color: #78909c;
+                font-size: 19px;
+            }
+
+            .vid {
+                margin-left: 54px;
+                height: 222px;
+                width: 524px;
+            }
+
+            a {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 0.89);
+                color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+
+            a:hover {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+        }
+
+
+        @media (min-width: 800px) {
+            body {
+                background-color: #45637d3d;
+            }
+
+            .mainh {
+                background-color: rgb(0 0 0 / 67%);
+                margin: -36px -8px;
+                height: 103px;
+                width: 1519px;
+            }
+
+            .head1 {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 1);
+                color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: solid;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .lect {
+                color: white;
+                background-color: #607d8b;
+                font-size: 25px;
+                width: 1500px;
+            }
+
+            .head1:hover {
+                display: block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                margin: 0px 29px;
+                height: 45px;
+                font-size: 35px;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 219px;
+                text-align: center;
+            }
+
+            .foot {
+                color: #dadadad9;
+                background-color: rgba(0, 0, 0, 0.86);
+                width: 1519px;
+                margin-top: 9432px;
+                height: 125px;
+                margin-left: -8px;
+                text-align: center;
+            }
+
+            .videos {
+                display: flex;
+                flex-direction: column;
+                height: 150px;
+                margin-left: 80px;
+            }
+
+            .picsen {
+                background-color: #2196f31f;
+                display: inline-flex;
+                padding: 40px 10px;
+                margin: 40px 16px;
+            }
+
+            .sen {
+                width: 600px;
+                padding: 22px 100px;
+                background-color: #78909c;
+                font-size: 22px;
+            }
+
+            .vid {
+                height: 324px;
+                width: 525px;
+            }
+
+            a {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                background-color: rgba(0, 0, 0, 0.89);
+                color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+
+            a:hover {
+                display: inline-block;
+                font-family: 'Sarpanch', sans-serif;
+                color: rgba(0, 0, 0, 0.89);
+                background-color: #dadadad9;
+                border: outset;
+                border-radius: 0px 58px;
+                width: 180px;
+                font-size: 29px;
+            }
+        }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="mainh"></div>
+        <h2 class="head1">StudyHUB</h2>
+        <p class="lect">Physics Lectures</p>
+    </header>
+
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Iframe -->
+        <section>
+            <div class="row d-flex justify-content-center">
+                <div class="videos" class="col-lg-6" style="display: inline-flex;">
+
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/vBIU68n_rWM" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Wave Optics!!</p>
+                    </div>
+
+
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/tHWJ2Y_VsvU" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Lens, Prism and Optical Instruments(Ray Optics)!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/sVZGYEAR3BE" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Refraction and Total Internal Refletion!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/wepFyRfrWBs" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Electric Charges and Fields!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/0ryTeZ8_nB0" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Electric Charges and Fields(Part II)!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/r2xvxEkVs5w" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Electrostatic Potential and Capacitance - I!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/73DuJFdmrPY" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Capacitance!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/9WUhPD6XkoI" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Current Electricity - I!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/U9ivggQhYUY" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Current Electricity - II!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/RkqnVB3r5xM" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Current Electricity - III!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/Q0PJ7GQgInA" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Moving Charges and Magnetism - I!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/Ajw68BOc5zU" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Moving Charges and Magnetism - II!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/dcIOWbpztFM" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Moving Charges and Magnetism - III!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/B5IluozQA1A" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Moving Charges and Magnetism - IV!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/VYZqWU8wYSY" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Magnetism and Matter - I!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/nxUAtoJJ-DE" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Magnetism and Matter - II!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/NJEf2_W7ipU" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Electomagnetic Induction - I!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/LxEEYaYvdq8" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Electomagnetic Induction - II!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/ElUc2gmuujY" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Dual Nature of Radiation and Matter!!</p>
+                    </div>
+                    <div class="picsen">
+                        <iframe class="vid" src="https://www.youtube.com/embed/1SG0otKYbhM" title="YouTube video"
+                            allowfullscreen></iframe>
+                        <p class="sen">Physics; Impotant Circuit Problems!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Iframe -->
+    </div>
+    <!-- Grid container -->
+
+    <footer>
+        <!-- Copyright -->
+        <div class="foot">
+            © 2021 Copyright: <a>StudyHUb</a>
+            <p>Designed by: TeamHack101</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>

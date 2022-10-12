@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHUB login page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+  <section>
+        <div class="container">
+          <div class="user signinBx">
+            <div class="imgBx"><img src=https://mk0digitallearn7ttjx.kinstacdn.com/wp-content/uploads/2018/12/Effective-education-system-%E2%80%93-A-must-for-nation-building.jpg alt="" /></div>
+            <div class="formBx">
+              <form action="/login" method="POST">
+              <h1>  Welcome to StudyHUB</h1>
+                <h2>Sign In</h2>
+                <input type="email" required name="email" placeholder="email" />
+                <input type="password" required name="password" placeholder="Password" />
+                <input type="submit" name="" value="Login" />
+                <p class="signup">
+                  Don't have an account ?
+                  <a href="#" onclick="toggleForm();">Sign Up.</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="user signupBx">
+            <div class="formBx">
+              <form action="/register" method="POST">
+                <h2>Create an account</h2>
+                <input type="text" name="name" placeholder="Username" />
+                <input type="email" name="email" placeholder="Email Address" />
+                <input type="password" name="password" placeholder="Create Password" />
+                <input type="password" name="confirmpassword" placeholder="Confirm Password" />
+                <input type="submit" name="" value="Sign Up" />
+                <p class="signup">
+                  Already have an account ?
+                  <a href="#" onclick="toggleForm();">Sign in.</a>
+                </p>
+              </form>
+            </div>
+            <div class="imgBx"><img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-148529,resizemode-1,msid-68850167/industry/services/education/e-learning-platforms-slowly-changing-indian-education-landscape.jpg" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #f8dd30);">
+    © Team Hack101:
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
