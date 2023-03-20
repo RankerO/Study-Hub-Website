@@ -1,8 +1,6 @@
-<h1 align="center">Hack36 Readme Team Hack101</h1>
+<h1 align="center">Study-Hub-Website</h1>
 <p align="center">
 </p>
-
-<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
 
 ## Introduction:
 
